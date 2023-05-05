@@ -84,7 +84,7 @@ header .nav-item a:hover {
     background-color: white;
     /* color: white; */
     color: #031864;
-    padding-top: 8rem;
+    padding-top: 6rem;
     /* padding-bottom: 5rem; */
 }
 
@@ -101,32 +101,39 @@ header .nav-item a:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    
 }
 
 .first-half .text-div h1 {
-    font-size: 3rem;
+
+    font-size: 3.8rem;
     font-weight: bold;
-    text-align: center;
+    color: #040052;
+    text-align: left;
+}
+
+.first-half .text-div h1 span {
     background: -webkit-linear-gradient(45deg, #fa2424, #fb8721);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    /* border-bottom: 2px solid red; */
+    border-bottom: 2px solid red;
 }
 
 .first-half .text-div p {
-    font-size: 1.5rem;
-    font-weight: bold;
-    text-align: center;
+    text-align: left;
     margin-top: 2rem;
     margin-bottom: 2rem;
+
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #5e5e5e;
 }
 
 .first-half .text-div button {
     background: linear-gradient(45deg, #fb8721, #fa2424);
     color: white;
     padding: 1rem;
-    width: 50vw;
+    /* width: 50vw; */
     cursor: pointer;
     font-size: 1.5rem;
     border: none;
@@ -135,8 +142,9 @@ header .nav-item a:hover {
 }
 
 .first-half img {
-    width: 25vw;
-    border-radius: 30px;
+    /* width: 25vw; */
+    width: 40vw;
+    /* border-radius: 30px; */
 }
 
 .first-half ul {
@@ -166,9 +174,10 @@ header .nav-item a:hover {
 }
 
 .second-half h1 {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     margin-bottom: 1rem;
-    font-weight: bold;
+    /* font-weight: bold; */
+    font-weight: 700;
 }
 
 .second-half .text-div h1 span {
@@ -179,7 +188,7 @@ header .nav-item a:hover {
 }
 
 .second-half p {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     color: gray;
 }
 
@@ -228,17 +237,18 @@ p {
 
 .second .text-div {
     text-align: center;
-    width: 70vw;
+    width: 90vw;
     margin: auto;
     padding-top: 1rem;
     /* padding-bottom: 2rem; */
 }
 
 .second .text-div h1 {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     margin-bottom: 1rem;
     color: #031864;
-    font-weight: bold;
+    /* font-weight: bold; */
+    font-weight: 700;
 }
 
 .second .text-div h1 span {
@@ -249,7 +259,7 @@ p {
 }
 
 .second .text-div p {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     color: grey;
 }
 
@@ -257,7 +267,10 @@ p {
     display: flex;
     justify-content: center;
 }
-
+.second .quote{
+    height: 40vh;
+    border-radius: 30px;
+}
 .second ul {
     margin-left: 4rem;
     margin-right: 4rem;
@@ -292,15 +305,16 @@ p {
 
 .third .text-div {
     text-align: center;
-    width: 70vw;
+    width: 90vw;
     margin: auto;
 }
 
 .third .text-div h1 {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     margin-bottom: 1.5rem;
     color: #031864;
-    font-weight: bold;
+    /* font-weight: bold; */
+    font-weight: 700;
 }
 
 .third .text-div h1 span {
@@ -311,7 +325,7 @@ p {
 }
 
 .third .text-div p {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     color: gray;
     margin-bottom: 2rem;
 }
@@ -331,10 +345,10 @@ p {
 }
 
 .third .program-text div {
-    /* background-color: #ffba69; */
+    /* background-color: #fad9b4; */
     text-align: center;
     color: gray;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     border-radius: 20px;
     /* margin: 1rem; */
     margin-bottom: 1rem;
@@ -366,12 +380,31 @@ p {
 
 
 
-.slider1 .heading {
+/* .slider1 .heading {
     text-align: center;
     font-size: 3rem;
     margin-bottom: 2rem;
+} */
+
+.slider1 h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1.5rem;
+    color: #031864;
+    /* font-weight: bold; */
+    font-weight: 700;
+    text-align: center;
 }
 
+.slider1 h1 span {
+    background: -webkit-linear-gradient(45deg, #fa2424, #fb8721);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-bottom: 2px solid red;
+}
+
+.slider1 .bold{
+    font-weight: 800;
+}
 
 .slider2 {
     /* padding-top: 5rem; */
@@ -379,7 +412,21 @@ p {
     /* background-image: linear-gradient(147deg, #ffe53b 0%, #fd3838 74%); */
 }
 
+.slider2 h1 {
+    font-size: 3.5rem;
+    margin-bottom: 2.5rem;
+    color: #031864;
+    /* font-weight: bold; */
+    font-weight: 700;
+    text-align: center;
+}
 
+.slider2 h1 span {
+    background: -webkit-linear-gradient(45deg, #fa2424, #fb8721);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-bottom: 2px solid red;
+}
 
 /* Subscribe */
 .subscribe {
