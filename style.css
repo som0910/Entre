@@ -548,7 +548,7 @@ footer .contact-us p div i {
 
 @media (max-width: 1200px) {
     .first-half .text-div h1, .second-half h1, .second .text-div h1, .third .text-div h1{
-        font-size: 2rem;
+        /* font-size: 2rem; */
     }
     .first-half .text-div p{
         margin-top: 1rem;
@@ -561,7 +561,7 @@ footer .contact-us p div i {
 }
 @media (max-width: 1000px) {
     .first-half .text-div p, .second-half p, .second .text-div p, .third .text-div p, .first-half li{
-        font-size: 1.3rem;
+        /* font-size: 1.3rem; */
     }
     
     .second-half .text-div, .second .text-div, .third .text-div{
@@ -588,7 +588,7 @@ footer .contact-us p div i {
         margin: auto;
     }
     .first-half li{
-        font-size: 1.5rem;
+        /* font-size: 1.5rem; */
     }
     .first-image-div, .second-image-div{
         flex-direction: column;
@@ -599,7 +599,7 @@ footer .contact-us p div i {
     .second ul{
         margin-left: 0.5rem;
         margin-right: 0.5rem;
-        font-size: 1.3rem;
+        /* font-size: 1.3rem; */
     }
     .second ul p{
         margin-bottom: 0;
@@ -648,8 +648,5 @@ footer .contact-us p div i {
     color:#031864
 }
 
-@media(max-width:1220px){
-    .form{
-        color : green
-    }
-}
+
+
