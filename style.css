@@ -324,10 +324,11 @@ p {
     border-bottom: 2px solid red;
 }
 
-.third .text-div p {
+.third .text-div p, .slider1 .textp {
     font-size: 1.1rem;
     color: gray;
     margin-bottom: 2rem;
+    text-align: center;
 }
 
 .third .program {
